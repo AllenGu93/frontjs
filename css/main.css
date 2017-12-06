@@ -1,6 +1,6 @@
 body,h1,h2,h3,h4,h5,h6,p,blockquote,pre,hr,dl,dd,ol,ul,figure {
 	margin: 0;
-	padding: 0
+	padding: 0;
 }
 
 body {
@@ -539,12 +539,12 @@ footer.site-footer .section-legal {
 .page-landing .section-hero {
 	background: #fff url("images/hero/javascript.jpg") 65% 55% no-repeat;
 	background-size: cover;
-	height: 520px
+	height: 600px
 }
 
 @media screen and (max-width: 900px) {
 	.page-landing .section-hero {
-		height: 480px
+		height: 560px
 	}
 }
 
