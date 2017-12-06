@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>导航栏</title>
+
+</head>
+<body>
+        
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#responsive-navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><strong>frontJs</strong></a>
+            </div>
+            <div class="collapse navbar-collapse" id="responsive-navbar">
+            <a href="" class="hidden-xs btn btn-primary btn-sm navbar-btn navbar-right">注册</a>
+
+                <div class="profile navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="">了解更多</a></li>
+                        <li><a href="">登录</a></li>
+                        <a href="" class="hidden-lg hidden-md hidden-sm btn btn-primary btn-block navbar-btn navbar-right">注册</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- 页面主内容开始 -->
+    <div class="page page-landing page-home">
+        <!-- first section -->
+        <section class="section section-dark section-hero"> 
+            <div class="wrapper"> 
+                <div class="hero"> 
+                    <h1>修复你的Javascript</h1> 
+                    <h2>跟踪错误堆栈，切实解决问题</h2> 
+                </div> 
+                <div class="cta"> 
+                    <a class="btn btn-orange btn-lg" href="/signup/">尝试开始frontjs之旅</a> 
+                    <a class="btn btn-white btn-lg" href="tour.html">我还想多了解一些</a> 
+                    <div>
+                    <small class="text-weak">30 day free trial. No credit card. Install in 5 minutes.</small>
+                    </div> 
+                </div> 
+            </div> 
+        </section>
+        <!-- second section -->
+        <section class="section section-light section-tile section-callouts"> 
+            <div class="wrapper"> 
+                <div class="callout callout-1"> 
+                    <h3>Know When to Take Action</h3> 
+                    <img src="images/hero/callout-notifications.png" width="350px" alt="Notifications" /> 
+                </div> 
+                <div class="callout callout-2"> 
+                    <h3>Understand User Impact</h3> 
+                    <img src="images/hero/callout-grouping.png" width="350px" alt="Intelligent Grouping" /> 
+                </div> 
+                <div class="callout callout-3"> 
+                    <h3>Recreate Bugs Fast</h3> 
+                    <img src="images/hero/callout-timeline-2.png" width="350px" alt="Telemetry Timeline" /> 
+                </div> 
+                <div> 
+                    <a href="/tour/">Take the Tour</a> 
+                </div> 
+            </div> 
+        </section>
+        <!-- third section -->
+        <section class="section section-orange section-screenshot"> 
+            <div class="wrapper"> 
+                <h3>Better JavaScript Error Reports</h3> 
+                <a href="/assets/images/screenshot-2.png" title="Error Details Screenshot"> <img src="images/hero/screenshot-2.png" width="720px" alt="Error Details" /> </a> 
+                <div class="annotation annotation-1"> 
+                    <h4>Impact Summary</h4> 
+                    <p>Track which users experience errors and understand total impact.</p> 
+                </div> 
+                <div class="annotation annotation-2"> 
+                    <h4>Remote Telemetry</h4> 
+                    <p>Recreate the history of application, user, and network actions.</p>
+                </div> 
+                <div class="annotation annotation-3"> 
+                    <h4>Environment Context</h4> 
+                    <p>Detail about the remote browser, plugins, and your custom metadata.</p> 
+                </div> 
+                <div class="annotation annotation-4"> 
+                    <h4>Source Code Tracing</h4> 
+                    <p>Quickly find original source code referenced by stack traces</p> 
+                </div> 
+                <div class="annotation annotation-5"> 
+                    <h4>Sourcemaps</h4> 
+                    <p>Take full control of applying sourcemaps to your traces.</p> 
+                </div> 
+            </div> 
+        </section>
+        <!-- forth section -->
+        <section class="section section-light section-customers"> 
+            <div class="wrapper"> 
+                <h3>Trusted by Developers</h3> 
+                <div class="logos"> 
+                    <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                    <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                    <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                    <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                    <div class="secondary"> 
+                        <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                        <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                        <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                        <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                    </div> 
+                </div> 
+                <div class="quotes"> 
+                    <div class="quote"> 
+                        <img src="images/hero/marc.jpeg" width="192px" alt="Marc Novakowski" /> 
+                        <div class="quote-text"> 
+                        <p>TrackJS pointed me towards a bug in our third-party integration code that prevented sending important information to our back-end. Without TrackJS, it's likely we wouldn't have discovered this for a long time, and probably with great difficulty hunting it down.</p> Marc Novakowski 
+                        <br />Pandora Media Inc. 
+                        </div> 
+                    </div> 
+                    <div class="quote secondary"> 
+                        <img src="images/hero/marc.jpeg" width="192px" alt="Jorge Sabater" /> 
+                        <div class="quote-text"> 
+                        <p>I'm really glad to use TrackJs, I've purchased two licenses. I've been able to detect and correct many JavaScript errors that were almost impossible to detect and reproduce before. Thanks to TrackJS, application quality is better and maintenance costs are lower. I don't think it's wise to develop web applications without it.</p> Jorge Sabater 
+                        <br />El Derecho 
+                        </div> 
+                    </div> 
+                </div> 
+            </div> 
+        </section>
+        <!-- fifth section -->
+        <section class="section section-orange section-media"> 
+            <div class="wrapper"> 
+                <h3>Featured On</h3> 
+                <div class="logos"> 
+                    <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                    <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                    <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                    <img src="images/hero/pandora.png" width="280px" alt="Pandora Media" /> 
+                </div> 
+                <div class="quote"> 
+                    <p>a clean and easy-to-use instrument that promises to make life easier for front-end developers.</p> 
+                    <cite>ProgrammableWeb</cite> 
+                </div> 
+            </div> 
+        </section>
+        <!-- sixth section -->
+        <section class="section section-dark section-signup"> 
+            <div class="wrapper"> 
+                <h2>Let's Get Started</h2> 
+                <h3>Track Errors, Fix Bugs, Delight Users</h3> 
+                <div class="controls"> 
+                    <a class="btn btn-orange btn-lg" href="/signup/">Yes! Start my free trial.</a> 
+                    <a class="btn btn-white btn-lg" href="/tour/">Not Yet, Tell me more</a> 
+                </div> 
+                <div>
+                    <small class="text-weak">30 day free trial. No credit card. Install in 5 minutes.</small>
+                </div> 
+            </div> 
+        </section>
+        <!-- seventh section -->
+        <section class="section section-light section-page-view-counter"> 
+            <div class="wrapper"> 
+                <div class="text-lg text-center">
+                Over
+                </div> 
+                <div class="big-counter-number">
+                    <span class="js-counter" data-start-count="9505114092" data-start-date="2016-01-01T00:00:00+00:00" data-count-per-second="703">
+                    </span> 
+                </div> 
+                <h3>User Experiences Improved</h3> 
+            </div> 
+        </section>
+    </div>
+    <!-- 底部footer开始 -->
+    <footer class="site-footer">
+        <section class="section-footer-links"> 
+            <div class="wrapper"> 
+                <div class="footer-col-wrapper"> 
+                    <div class="footer-col footer-col-1"> 
+                        <h2 class="brand-logo footer-logo">{Track:js}</h2> 
+                        <p><small>TrackJS is the easiest way to Track, Log, Monitor, and Report JavaScript Errors from your Web Application. Get started tracking <a href="/for/angular/">Angular</a>, Ember, Backbone, React, Knockout, Ampersand, Polymer, and Vanilla JS in minutes.</small></p> 
+                        <ul class="social-media-list"> 
+                            <li> <a href="https://twitter.com/trackjs" class="icon-26 twitter" title="Twitter"><i class="icon-twitter" aria-label="Twitter"></i></a> </li> 
+                            <li> <a href="https://www.facebook.com/trackjs" class="icon-10 facebook" title="Facebook"><i class="icon-facebook" aria-label="Facebook"></i></a> </li> 
+                            <li> <a href="https://plus.google.com/+Trackjs" class="icon-14 googleplus" title="GooglePlus"><i class="icon-gplus" aria-label="GooglePlus"></i></a> </li> 
+                            <li> <a href="https://github.com/TrackJs" class="icon-13 github" title="GitHub"><i class="icon-github" aria-label="GitHub"></i></a> </li> 
+                        </ul> 
+                    </div> 
+                    <div class="footer-col footer-col-2"> 
+                        <h3>Company</h3> 
+                        <ul> 
+                        <li><a href="/about/">About</a></li> 
+                        <li><a href="/blog/">Blog</a></li> 
+                        <li><a href="/tour/">Tour</a></li> 
+                        <li><a href="/pricing/">Pricing</a></li> 
+                        </ul> 
+                    </div> 
+                    <div class="footer-col footer-col-3"> 
+                        <h3>Solutions</h3> 
+                        <ul> 
+                            <li><a href="/">JavaScript</a></li> 
+                            <li><a href="/for/angular">Angular</a></li> 
+                        </ul> 
+                    </div> 
+                    <div class="footer-col footer-col-4"> 
+                        <h3>Support</h3> 
+                        <ul> 
+                            <li><a href="http://docs.trackjs.com">Docs</a></li> 
+                            <li><a href="https://status.trackjs.com">Status</a></li> 
+                            <li><a href="mailto:hello@trackjs.com">Contact Us</a></li> 
+                            <li><a href="/terms/">Terms of Service</a></li> 
+                            <li><a href="/privacy/">Privacy Policy</a></li> 
+                        </ul> 
+                    </div> 
+                </div> 
+            </div> 
+        </section> 
+        <section class="section-legal"> 
+            <div class="wrapper"> 
+                <div class="legal"> 
+                    <p><small>All content appearing on this website is proprietary, copyrighted and owned or licensed by TrackJS LLC. Any unauthorized use of trademarks or content from this website is strictly prohibited. All rights reserved.</small></p> 
+                    <p><small>&copy; 2017 FrontJS</small></p> 
+                </div> 
+            </div> 
+        </section> 
+    </footer>
+    <script src="jquery-3.2.1.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var startCount = $(".js-counter").data('start-count');
+            var increase = $(".js-counter").data('count-per-second');
+            
+
+            var timestamp = new Date($(".js-counter").data('start-date'));
+
+            setInterval(function() {
+                var nowTimestamp = new Date();
+                var period = nowTimestamp - timestamp;
+                var result = startCount + Math.floor(period / 1e3 * increase);
+                $(".js-counter").text(result.toLocaleString());
+            }, 200);
+    
+        });
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
