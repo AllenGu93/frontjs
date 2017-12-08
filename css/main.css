@@ -2597,3 +2597,13 @@ input[type=text],input[type=email] {
 .nav>li {
 	margin-top: 3px;
 }
+
+nav.navbar-inverse {
+	background-color: #00F5FF;
+	border-color: #00F5FF
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    font-size: 20px;
+}
